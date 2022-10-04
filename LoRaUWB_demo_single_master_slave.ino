@@ -236,10 +236,10 @@ void do_measurement(void)
   payload[17] = (uint8_t)(dist1) & 0xff;
 
   uint32_t dist2 = data_mode2.dist * 100;
-  payload[18] = (uint8_t)(dist1 >> 24) & 0xff;
-  payload[19] = (uint8_t)(dist1 >> 16) & 0xff;
-  payload[20] = (uint8_t)(dist1 >> 8) & 0xff;
-  payload[21] = (uint8_t)(dist1) & 0xff;
+  payload[18] = (uint8_t)(dist2 >> 24) & 0xff;
+  payload[19] = (uint8_t)(dist2 >> 16) & 0xff;
+  payload[20] = (uint8_t)(dist2 >> 8) & 0xff;
+  payload[21] = (uint8_t)(dist2) & 0xff;
 
   // Reading ID
   if (readingID == 0)
