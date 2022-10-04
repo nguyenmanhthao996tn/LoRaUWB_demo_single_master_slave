@@ -77,4 +77,6 @@ Do nothing.
 Switch between Master Mode & Slave Mode.
 
 # Credits
-This project is led by Amnia Benouakta & Prof. Fabien Ferrero at LEAT. Laboratoire d'Electronique, Antennes et Télécommunications. Université Cote d'Azur, CNRS UMR 7248.
+This project is led by [<b>Amnia Benouakta</b>](mailto:Amina.Benouakta@unice.fr ) & [Prof. <b>Fabien Ferrero</b>](https://github.com/FabienFerrero) at <b>LEAT. Laboratoire d'Electronique, Antennes et Télécommunications. Université Cote d'Azur, CNRS UMR 7248.</b>
+
+Source code maintained by <b>mtnguyen</b>.
