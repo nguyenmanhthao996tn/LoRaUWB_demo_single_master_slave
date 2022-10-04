@@ -103,7 +103,7 @@ If TD, ID, TAG_ID are not the same or result not available, trigger LEDs behavio
 
 ## [8] Send LoRaWAN Packet
 
-In this state, a LoRaWAN packet is built & sent over LoRaWAN Network as the below format. The <b><i>docs/function_decodeUplink.js</b></i> file can be use as the Uplink Payload Formater on The Things Network's website. 
+In this state, a LoRaWAN packet is built & sent over LoRaWAN Network as the below format. The <b><i>docs/function_decodeUplink.js</b></i> file can be used as the Uplink Payload Formater on The Things Network's website. 
 
 |    DT   |    ID   |  TAG_ID | LQI Mode 1 | LQI Mode 2 | DIST Mode 1 | DIST Mode 2 | Reading ID |
 |:-------:|:-------:|:-------:|:----------:|:----------:|:-----------:|:-----------:|:----------:|
