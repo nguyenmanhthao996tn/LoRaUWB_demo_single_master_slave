@@ -1,6 +1,10 @@
 # LoRaUWB_demo_single_master_slave
 
-This Arduino sketch controls the LoRa-UWB Board (UCA - LEAT) in Master & Slave modes for measurement senarios. The board starts in Slave Mode by default. To change to Master mode, press UserButton 3 times (triple click). In Master Mode, press UserButton 1 time (single click) to trigger the measurement. Measurement result will be send to LoRaWAN network.
+This Arduino sketch operates the LoRa-UWB Board (UCA - LEAT) in Master & Slave modes for Ultra-wideband measurement senarios. The measurement results including distance & link quality betweem the Master and Slave are sent to The Things Network via LoRaWAN Network.
+
+The board starts in Slave Mode by default. To change to Master mode, press UserButton 3 times (triple click). In Master Mode, press UserButton 1 time (single click) to trigger the measurement. Measurement result will be send to LoRaWAN network.
+
+<i>Contact project leaders in Credits section below for further details of the project, the hardware/antenna design & the measurement results.</i>
 
 # Requirements
 
@@ -71,3 +75,6 @@ Do nothing.
 <i>(No more than 400 milliseconds between 2 clicks)</i>
 
 Switch between Master Mode & Slave Mode.
+
+# Credits
+This project is led by Amnia Benouakta & Prof. Fabien Ferrero at LEAT. Laboratoire d'Electronique, Antennes et Télécommunications. Université Cote d'Azur, CNRS UMR 7248.
